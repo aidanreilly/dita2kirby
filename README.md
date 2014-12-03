@@ -10,3 +10,10 @@ The plugin is still under development. Of course you will get txt-files as outpu
 
 * Kirby CMS: [getkirby.com](http://getkirby.com)
 * History of the plugin: [ditalog.com](http://www.ditalog.com)
+
+# Integration into the DITA Open Toolkit
+
+1. Create a folder _com.ditalog.kirby.txt_ inside the plugin folder of your DITA-OT.
+2. Copy and paste the plugin´s files and folders into this new plugin folder.
+3. Do _ant -f integrator.xml_ at command level of your DITA-OT.
+4. Use _com.ditalog.kirby.txt_ as transtype.
