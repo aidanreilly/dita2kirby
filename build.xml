@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <target name="com.ditalog.kirby.txt.init">
+  	<property name="out.ext" value=".txt"/>
+    <property name="args.xsl" location="${dita.plugin.com.ditalog.kirby.txt.dir}/xslt/dita2html.xsl"/>
+    <property name="args.css.file" value="base.css"/>
+    <property name="args.csspath" value="css"/>
+  	<property name="args.rellinks" value="all"/>
+  </target>
+
+  <target name="com.ditalog.kirby.txt">
+    <loadfile property="com.ditalog.kirby.txt.map" srcfile="${dita.temp.dir}/${user.input.file.listfile}">
+      <filterchain>
+        <headfilter lines="1"/>
+      </filterchain>
+    </loadfile>
+    <makeurl property="com.ditalog.kirby.txt.map.url" file="${dita.temp.dir}/${com.ditalog.kirby.txt.map}"/>
+  </target>
+
+  <target name="dita2com.ditalog.kirby.txt"
+          depends="com.ditalog.kirby.txt.init,
+                   build-init,
+                   preprocess,
+                   copy-css,
+  	               com.ditalog.kirby.txt,
+  				   dita.topics.xhtml,
+                   dita.inner.topics.xhtml,
+                   dita.outer.topics.xhtml">
+    <copy todir="${output.dir}">
+      <fileset dir="${dita.plugin.com.ditalog.kirby.txt.dir}">
+        <include name="css/*.css"/>
+      </fileset>
+    </copy>
+    <copy todir="${output.dir}">
+      <fileset dir="${dita.plugin.com.ditalog.kirby.txt.dir}">
+        <include name="images/*.png"/>
+      </fileset>
+    </copy>
+  </target>
+
+</project>
