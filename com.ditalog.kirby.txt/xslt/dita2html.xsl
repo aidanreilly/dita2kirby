@@ -50,6 +50,29 @@
   </xsl:template>
   
   <xsl:template match="*[contains(@class, ' topic/topic ')]/*[contains(@class, ' topic/title ')]">
-  </xsl:template> 
+  </xsl:template>
+
+  <!-- This template puts the caption below the image -->
+<xsl:template match="*[contains(@class, ' topic/fig ')]" mode="fig-fmt">
+  <!-- This template is deprecated in DITA-OT 1.7. Processing will moved into the main element rule. -->
+  <xsl:variable name="default-fig-class">
+    <xsl:apply-templates select="." mode="dita2html:get-default-fig-class"/>
+  </xsl:variable>
+  <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]" mode="out-of-line"/>
+  <div>
+    <xsl:if test="$default-fig-class != ''">
+      <xsl:attribute name="class"><xsl:value-of select="$default-fig-class"/></xsl:attribute>
+    </xsl:if>
+    <xsl:call-template name="commonattributes">
+      <xsl:with-param name="default-output-class" select="$default-fig-class"/>
+    </xsl:call-template>
+    <xsl:call-template name="setscale"/>
+    <xsl:call-template name="setidaname"/>
+    <xsl:apply-templates select="*[not(contains(@class, ' topic/title '))][not(contains(@class, ' topic/desc '))] |text()|comment()|processing-instruction()"/>
+  </div>
+  <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
+  <xsl:call-template name="place-fig-lbl"/>
+  <xsl:value-of select="$newline"/>
+</xsl:template>  
   
 </xsl:stylesheet>
