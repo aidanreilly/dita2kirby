@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
+<map id="first-chapter" scope="local" title="Content First Chapter" xml:lang="en">
+  <!-- Topics Part -->
+  <mapref href="topics/keydef-first-chapter.ditamap"
+          processing-role="resource-only"/>
+  <!-- Topics Christmas -->
+  <topicref keyref="christmas" collection-type="sequence">
+    <topicref keyref="christmas-article-first"/>
+    <topicref keyref="christmas-article-second"/>
+    <topicref keyref="christmas-article-third"/>
+  </topicref>
+  <!-- Topics Silvester -->
+  <topicref keyref="silvester"/>
+</map>

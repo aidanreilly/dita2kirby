@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
+<map id="keydef-first-chapter" scope="local" title="Container First Chapter"
+     xml:lang="en">
+  <!-- Topics start page Chapter 1 -->
+
+  <keydef href="first-chapter/content.navigation.xml"
+          keys="first-chapter_topic" scope="local" type="topic" xml:lang="en"/>
+
+  <!-- Topics Christmas -->
+
+  <keydef href="first-chapter/christmas/content.navigation.xml"
+          keys="christmas" scope="local" type="topic" xml:lang="de-de"/>
+
+  <keydef href="first-chapter/christmas/christmas-article-first/content.standard.xml"
+          keys="christmas-article-first" scope="local" type="concept"
+          xml:lang="de-de"/>
+
+  <keydef href="first-chapter/christmas/christmas-article-second/content.standard.xml"
+          keys="christmas-article-second" scope="local" type="concept"
+          xml:lang="de-de"/>
+
+  <keydef href="first-chapter/christmas/christmas-article-third/content.standard.xml"
+          keys="christmas-article-third" scope="local" type="concept"
+          xml:lang="de-de"/>
+
+  <!-- Topics Sivester -->
+
+  <keydef href="first-chapter/silvester/content.standard.xml" keys="silvester"
+          scope="local" type="concept" xml:lang="de-de"/>
+</map>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/topic.dtd">
+<topic id="christmas_topic" xml:lang="en">
+  <title xml:lang="en">Christmas Topic</title>
+
+  <shortdesc>This is the Christmas topic. It is a
+  <filepath>content.navigation.xml</filepath> in the folder
+  <filepath>topics/first-chapter/christmas</filepath>.</shortdesc>
+
+  <prolog>
+    <author type="creator">Andreas Petersell</author>
+
+    <copyright>
+      <copyryear year="2014"/>
+
+      <copyrholder>creativecommons.org/licenses/by/3.0/de/</copyrholder>
+    </copyright>
+
+    <critdates>
+      <created date="17.12.2014"/>
+    </critdates>
+
+    <metadata>
+      <prodinfo>
+        <prodname>com.ditalog.kirby.txt</prodname>
+
+        <vrmlist>
+          <vrm release="2014" version="1.0"/>
+        </vrmlist>
+      </prodinfo>
+    </metadata>
+  </prolog>
+
+  <body>
+    <section><title>Images into the next higher folder</title><p>Lorem ipsum
+    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+    amet.</p><p><fig>
+        <title>File - christmas.gif</title>
+
+        <image alt="christmas" href="christmas.gif" placement="break"/>
+      </fig></p></section>
+
+    <section><title>Contents</title><p/></section>
+  </body>
+</topic>

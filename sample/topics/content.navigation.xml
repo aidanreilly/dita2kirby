@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/topic.dtd">
+<topic id="main_topic" xml:lang="en">
+  <title>Main Topic</title>
+
+  <shortdesc>This is the main topic. It is a
+  <filepath>content.navigation.xml</filepath> in the folder
+  <filepath>topics</filepath>. It has no paragraphs.</shortdesc>
+
+  <prolog>
+    <author type="creator">Andreas Petersell</author>
+
+    <copyright>
+      <copyryear year="2014"/>
+
+      <copyrholder>Andreas Petersell</copyrholder>
+    </copyright>
+
+    <critdates>
+      <created date="17.12.2014"/>
+    </critdates>
+
+    <metadata>
+      <prodinfo>
+        <prodname>com.ditalog.kirby.txt</prodname>
+
+        <vrmlist>
+          <vrm release="2014" version="1.0"/>
+        </vrmlist>
+      </prodinfo>
+    </metadata>
+  </prolog>
+
+  <body>
+    <section><title>Write DITA topics modular and kirbylike</title><p>The DITA
+    source files of this example output you can find in the folder
+    <filepath>com.ditalog.kirby.txt/sample</filepath>. It is about the <xref
+    format="html" href="http://www.ditalog.com/dita2kirby/documentation"
+    scope="external">first entry in the list mentioned here</xref>.
+    <cite>Write DITA topics modular and kirbylike.</cite> Only the DITA source
+    files are concerned.</p></section>
+
+    <section><title>Contents</title><p/></section>
+  </body>
+</topic>

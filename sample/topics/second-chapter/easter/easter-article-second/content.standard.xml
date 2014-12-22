@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/concept.dtd">
+<concept id="easter-article-second" xml:lang="en">
+  <title>Easter - The second article</title>
+
+  <shortdesc>This is the second article within the Easter topic. It is a
+  <filepath>content.standard.xml</filepath> in the folder
+  <filepath>topics/second-chapter/easter/easter-article-second</filepath>.</shortdesc>
+
+  <prolog>
+    <author type="creator">Andreas Petersell</author>
+
+    <publisher>ditalog.com</publisher>
+
+    <copyright>
+      <copyryear year="2014"/>
+
+      <copyrholder>creativecommons.org/licenses/by/3.0/de/</copyrholder>
+    </copyright>
+
+    <critdates>
+      <created date="18.12.2014"/>
+    </critdates>
+
+    <metadata>
+      <keywords>
+        <indexterm>Example index</indexterm>
+      </keywords>
+
+      <prodinfo>
+        <prodname>Ditalog</prodname>
+
+        <vrmlist>
+          <vrm release="18.12.2014" version="1"/>
+        </vrmlist>
+
+        <brand>ditalog</brand>
+
+        <component>ditalog</component>
+
+        <featnum/>
+
+        <series>Tutor</series>
+      </prodinfo>
+    </metadata>
+
+    <resourceid id="easter-article-second"/>
+  </prolog>
+
+  <conbody>
+    <section><title>Images into the next higher folder</title><p>Lorem ipsum
+    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+    amet.</p><p><fig>
+        <title>File - easter1.gif</title>
+
+        <image alt="easter2" href="easter2.gif" placement="break"/>
+      </fig></p></section>
+  </conbody>
+</concept>
