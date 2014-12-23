@@ -11,7 +11,7 @@
   <!-- Topics Easter -->
 
   <keydef href="second-chapter/easter/content.navigation.xml" keys="easter"
-          processing-role="normal" type="topic" xml:lang="en"/>
+          type="topic" xml:lang="en"/>
 
   <keydef href="second-chapter/easter/easter-article-first/content.standard.xml"
           keys="easter-article-first" type="concept" xml:lang="en"/>

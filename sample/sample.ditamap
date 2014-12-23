@@ -3,12 +3,7 @@
 "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
 <map id="main" scope="local" xml:lang="en">
   <topicref keys="main_topic" href="topics/content.navigation.xml" scope="local">
-    <topicref href="topics/first-chapter/content.navigation.xml">
-      <mapref href="content-first-chapter.ditamap" scope="local"/>
-    </topicref>
-
-    <topicref href="topics/second-chapter/content.navigation.xml">
-      <mapref href="content-second-chapter.ditamap" scope="local"/>
-    </topicref>
+    <mapref href="content-first-chapter.ditamap" scope="local"/>
+    <mapref href="content-second-chapter.ditamap" scope="local"/>
   </topicref>
 </map>

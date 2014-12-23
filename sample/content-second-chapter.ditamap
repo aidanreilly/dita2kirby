@@ -5,10 +5,12 @@
   <!-- Topics Part -->
   <mapref href="topics/keydef-second-chapter.ditamap" processing-role="resource-only"/>
   <!-- Topics Easter -->
-  <topicref keyref="easter" collection-type="sequence">
-    <topicref keyref="easter-article-first"/>
-    <topicref keyref="easter-article-second"/>
-  </topicref>
+  <topicref keyref="second-chapter_topic">
+    <topicref keyref="easter" collection-type="sequence">
+      <topicref keyref="easter-article-first"/>
+      <topicref keyref="easter-article-second"/>
+    </topicref>
   <!-- Topics Pentecost -->
-  <topicref keyref="pentecost"/>
+    <topicref keyref="pentecost"/>
+  </topicref>
  </map>

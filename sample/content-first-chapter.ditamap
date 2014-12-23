@@ -3,14 +3,15 @@
 "http://docs.oasis-open.org/dita/v1.2/os/dtd1.2/technicalContent/dtd/map.dtd">
 <map id="first-chapter" scope="local" title="Content First Chapter" xml:lang="en">
   <!-- Topics Part -->
-  <mapref href="topics/keydef-first-chapter.ditamap"
-          processing-role="resource-only"/>
+  <mapref href="topics/keydef-first-chapter.ditamap" processing-role="resource-only"/>
   <!-- Topics Christmas -->
-  <topicref keyref="christmas" collection-type="sequence">
-    <topicref keyref="christmas-article-first"/>
-    <topicref keyref="christmas-article-second"/>
-    <topicref keyref="christmas-article-third"/>
-  </topicref>
+  <topicref keyref="first-chapter_topic">
+    <topicref keyref="christmas" collection-type="sequence">
+      <topicref keyref="christmas-article-first"/>
+      <topicref keyref="christmas-article-second"/>
+      <topicref keyref="christmas-article-third"/>
+    </topicref>
   <!-- Topics Silvester -->
-  <topicref keyref="silvester"/>
+    <topicref keyref="silvester"/>
+  </topicref>
 </map>
