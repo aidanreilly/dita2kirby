@@ -25,7 +25,7 @@
 
     <metadata>
       <keywords>
-        <indexterm>Example index</indexterm>
+        <indexterm>Content example</indexterm>
       </keywords>
 
       <prodinfo>
@@ -37,11 +37,11 @@
 
         <brand>ditalog</brand>
 
-        <component>ditalog</component>
+        <component>com.ditalog.kirby.txt</component>
 
         <featnum/>
 
-        <series>Tutor</series>
+        <series>Manual</series>
       </prodinfo>
     </metadata>
 

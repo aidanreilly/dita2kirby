@@ -1,0 +1,2 @@
+
+java -jar lib/dost.jar /i:C:/Users/A.Petersell/Dropbox/com.ditalog.kirby.txt/sample/sample.ditamap /transtype:com.ditalog.kirby.txt /filter:C:/Users/A.Petersell/Dropbox/com.ditalog.kirby.txt/sample/filters/sample_online.ditaval /tempdir:C:/temp /outdir:C:/DITA-OUT/dita2kirby /logdir:C:/DITA-OUT/log
