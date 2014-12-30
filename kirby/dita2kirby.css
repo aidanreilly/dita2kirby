@@ -1,0 +1,163 @@
+/***************************************************
+****** Part of com.ditalog.kirby.txt
+****** http://www.ditalog.com
+****** based upon Baseblog | Kirby Theme
+
+*** URL: http://baseblog.sashtown.de
+*** Author: Sascha Lack
+*** Author URL: http://sashtown.de
+*** Made for Kirby CMS [http://getkirby.com]
+
+****************************************************/
+
+/* generell - software domain
+-------------------------------------------------- */
+.uicontrol { font-weight: normal; font-style: italic;}
+.wintitle { font-weight: normal; font-style: italic;}
+.msgph { font-weight: bold;}
+.userinput { font-family: monospace;}
+.filepath { font-family: monospace; }
+
+/* images
+-------------------------------------------------- */
+
+div.fig {
+  margin-bottom: 1em;
+}
+
+span.figcap {
+  margin-top: .25em;
+  font-size: 0.8em;
+  color: #888;
+}
+
+/* paragraph
+-------------------------------------------------- */
+
+p.p {margin-top: .5em;
+}
+
+p.sectiontitle {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: 350;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/*
+ :::  Code
+-------------------------------------------------- */
+
+.codeph {
+  font-family: monospace;
+  background-color: #eee;
+} 
+
+pre.codeblock {
+  margin-top: 1em;
+
+/*
+ :::  filepath
+-------------------------------------------------- */
+
+span.filepath {
+  font-family: monospace;
+}  
+ 
+ /*
+ :::  Task
+-------------------------------------------------- */
+
+ol.ol.steps {
+  margin-top: 5em;
+}
+
+ul.ul.steps {
+  margin-top: 5em;
+}
+
+li.step {
+  margin-bottom: 1em;
+}  
+
+div.postreq {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1;
+  font-size: 1em;
+} 
+
+div.result {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1;
+  font-size: 1em;
+} 
+
+pre.screen { padding: 5px 5px 5px 5px; border: outset; background-color: #CCCCCC; margin-top: 2px; margin-bottom : 2px; white-space: pre}
+
+.note
+{
+	background-color: #FFFFE3;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	color: #000000;
+	font-weight: normal;
+	border-color: #FFDDB9;
+	border-style: solid;
+    border-width: 1px;
+}
+
+.zugang
+{
+	background-color: #EDFFE6;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	font-family:Verdana;
+	font-size:8pt; 
+	color: #000000;
+	font-weight: normal;
+	border-color: #BDFFC7;
+	border-style: solid;
+        border-width: 1px;
+}
+
+.bedingung
+{
+	background-color: #F0F0F0;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	color: #000000;
+	font-weight: normal;
+	border-color: #E2E2E2;
+	border-style: solid;
+    border-width: 1px;
+}
+ 
+
+/*
+ :::  Condept
+-------------------------------------------------- */
+
+div.context {
+  margin-bottom: 1em;
+}  
+
+/*
+ :::  content.navigation.txt
+-------------------------------------------------- */
+
+li.link.olchildlink {
+    padding-top:10px;
+	padding-bottom:10px;
+}  
+
+ 
+
+
+
